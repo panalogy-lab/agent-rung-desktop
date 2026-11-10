@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.22.0, released 2026-11-09, 1 version in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.22.0, released 2026-11-09, 2 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -44,6 +44,28 @@ _6 other changes \(chores, docs, tests, refactors\)\._
 ## In testing
 
 Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.24.0 · 2026-11-10 · 6 features, 1 fix</summary>
+
+#### ✨ Features
+
+- **engine**: read a missed IPv4 PLC directly
+- **sidecar**: AB, topology, SmartGuard on cip
+- **cip**: identity, backplane and SmartGuard
+- **cip**: writes, bit RMW and fragmented writes
+- **cip**: Logix list, templates, reads and MSP
+- **cip**: encapsulation, CPF and sessions
+
+#### 🐛 Fixes
+
+- **dev**: seat node's distribution on loopback
+
+_4 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.24.0)
+
+</details>
 
 <details>
 <summary>v3.23.0 · 2026-11-10 · 2 features, 2 fixes</summary>
