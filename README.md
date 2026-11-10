@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.22.0, released 2026-11-09, 2 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.24.0, released 2026-11-10, 0 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -8,47 +8,19 @@
 Installers for the Agent Rung desktop app, and the update feed
 \(`latest.json`\) that installed apps read to update themselves\.
 
-## Download v3\.22\.0
+## Download v3\.24\.0
 
-Released 2026-11-09\. The app needs an Agent Rung account to do anything\.
+Released 2026-11-10\. The app needs an Agent Rung account to do anything\.
 
 | Platform | Installer |
 | --- | --- |
-| macOS · Apple silicon | [Agent\.Rung\_3\.22\.0\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.22.0/Agent.Rung_3.22.0_aarch64.dmg) |
-| Windows · installer | [Agent\.Rung\_3\.22\.0\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.22.0/Agent.Rung_3.22.0_x64-setup.exe) |
-| Windows · MSI | [Agent\.Rung\_3\.22\.0\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.22.0/Agent.Rung_3.22.0_x64_en-US.msi) |
+| macOS · Apple silicon | [Agent\.Rung\_3\.24\.0\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.24.0/Agent.Rung_3.24.0_aarch64.dmg) |
+| Windows · installer | [Agent\.Rung\_3\.24\.0\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.24.0/Agent.Rung_3.24.0_x64-setup.exe) |
+| Windows · MSI | [Agent\.Rung\_3\.24\.0\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.24.0/Agent.Rung_3.24.0_x64_en-US.msi) |
 
-## What's new in v3\.22\.0
+## What's new in v3\.24\.0
 
 ### ✨ Features
-
-- **agent**: trace each iteration's raw usage
-- **engine**: the modeler re\-runs on documents
-- **rag**: Rung's own Voyage client
-- **agent**: a drawing is read once, as text
-
-### 🐛 Fixes
-
-- **foresight**: take an SCL block's line as cited
-- **modeler**: search the documents per machine
-- **modeler**: propose as it goes and at its end
-- **modeler**: hold a pass's key while docs ingest
-- **agent**: transcripts meter what they bill
-- **engine**: cross\_reference reads SCL assignments
-- **agent**: every billed token is metered
-- **engine**: a long ingest runs, a wedged one ends
-- **agent**: each controller in its brand's terms
-
-_6 other changes \(chores, docs, tests, refactors\)\._
-
-## In testing
-
-Newer builds being tested before one becomes the download above, newest first\.
-
-<details>
-<summary>v3.24.0 · 2026-11-10 · 6 features, 1 fix</summary>
-
-#### ✨ Features
 
 - **engine**: read a missed IPv4 PLC directly
 - **sidecar**: AB, topology, SmartGuard on cip
@@ -57,15 +29,17 @@ Newer builds being tested before one becomes the download above, newest first\.
 - **cip**: Logix list, templates, reads and MSP
 - **cip**: encapsulation, CPF and sessions
 
-#### 🐛 Fixes
+### 🐛 Fixes
 
 - **dev**: seat node's distribution on loopback
 
 _4 other changes \(chores, docs, tests, refactors\)\._
 
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.24.0)
+## In testing
 
-</details>
+No newer build is in testing right now\.
+
+## Earlier versions
 
 <details>
 <summary>v3.23.0 · 2026-11-10 · 2 features, 2 fixes</summary>
@@ -86,7 +60,33 @@ _9 other changes \(chores, docs, tests, refactors\)\._
 
 </details>
 
-## Earlier versions
+<details>
+<summary>v3.22.0 · 2026-11-09 · 4 features, 9 fixes</summary>
+
+#### ✨ Features
+
+- **agent**: trace each iteration's raw usage
+- **engine**: the modeler re\-runs on documents
+- **rag**: Rung's own Voyage client
+- **agent**: a drawing is read once, as text
+
+#### 🐛 Fixes
+
+- **foresight**: take an SCL block's line as cited
+- **modeler**: search the documents per machine
+- **modeler**: propose as it goes and at its end
+- **modeler**: hold a pass's key while docs ingest
+- **agent**: transcripts meter what they bill
+- **engine**: cross\_reference reads SCL assignments
+- **agent**: every billed token is metered
+- **engine**: a long ingest runs, a wedged one ends
+- **agent**: each controller in its brand's terms
+
+_6 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.22.0)
+
+</details>
 
 <details>
 <summary>v3.21.0 · 2026-11-09 · 2 features, 6 fixes</summary>
@@ -260,50 +260,6 @@ _28 other changes \(chores, docs, tests, refactors\)\._
 _3 other changes \(chores, docs, tests, refactors\)\._
 
 [Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.14.0)
-
-</details>
-
-<details>
-<summary>v3.13.0 · 2026-10-26 · 2 features, 1 fix</summary>
-
-#### ✨ Features
-
-- **foresight**: the last run names its model
-- **foresight**: its own model and effort
-
-#### 🐛 Fixes
-
-- **foresight**: OpenAI runs use the served client
-
-_1 other change \(chores, docs, tests, refactors\)\._
-
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.13.0)
-
-</details>
-
-<details>
-<summary>v3.12.0 · 2026-10-26 · 10 features, 1 fix</summary>
-
-#### ✨ Features
-
-- **desktop**: promote both release repos
-- **desktop**: sign, check and mirror releases
-- **desktop**: trust Agent Rung's update key
-- **desktop**: the update banner when signed out
-- **desktop**: the update banner
-- **desktop**: check for and install signed update
-- **shells**: seen again, dismissed and solved
-- **foresight**: the owner dismisses or solves
-- **foresight**: a run is told its known findings
-- **foresight**: a finding seen again counts
-
-#### 🐛 Fixes
-
-- **rest**: a JSON body not an object is a 400
-
-_1 other change \(chores, docs, tests, refactors\)\._
-
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.12.0)
 
 </details>
 
