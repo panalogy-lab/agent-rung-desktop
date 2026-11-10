@@ -1,11 +1,274 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
+  <img alt="Agent Rung desktop v3.22.0, released 2026-11-09, 0 versions in testing" src="assets/whats-new-light.svg" width="880">
+</picture>
+
 # Agent Rung desktop releases
 
 Installers for the Agent Rung desktop app, and the update feed
-(`latest.json`) that installed apps read to update themselves.
+\(`latest.json`\) that installed apps read to update themselves\.
 
-Download the installer for your platform from the
-[latest release](https://github.com/panalogy-lab/agent-rung-desktop/releases/latest).
-The app needs an Agent Rung account to do anything.
+## Download v3\.22\.0
+
+Released 2026-11-09\. The app needs an Agent Rung account to do anything\.
+
+| Platform | Installer |
+| --- | --- |
+| macOS · Apple silicon | [Agent\.Rung\_3\.22\.0\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.22.0/Agent.Rung_3.22.0_aarch64.dmg) |
+| Windows · installer | [Agent\.Rung\_3\.22\.0\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.22.0/Agent.Rung_3.22.0_x64-setup.exe) |
+| Windows · MSI | [Agent\.Rung\_3\.22\.0\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.22.0/Agent.Rung_3.22.0_x64_en-US.msi) |
+
+## What's new in v3\.22\.0
+
+### ✨ Features
+
+- **agent**: trace each iteration's raw usage
+- **engine**: the modeler re\-runs on documents
+- **rag**: Rung's own Voyage client
+- **agent**: a drawing is read once, as text
+
+### 🐛 Fixes
+
+- **foresight**: take an SCL block's line as cited
+- **modeler**: search the documents per machine
+- **modeler**: propose as it goes and at its end
+- **modeler**: hold a pass's key while docs ingest
+- **agent**: transcripts meter what they bill
+- **engine**: cross\_reference reads SCL assignments
+- **agent**: every billed token is metered
+- **engine**: a long ingest runs, a wedged one ends
+- **agent**: each controller in its brand's terms
+
+_6 other changes \(chores, docs, tests, refactors\)\._
+
+## In testing
+
+No newer build is in testing right now\.
+
+## Earlier versions
+
+<details>
+<summary>v3.21.0 · 2026-11-09 · 2 features, 6 fixes</summary>
+
+#### ✨ Features
+
+- **logic**: upload and cite Siemens SCL
+- **logic**: SCL sources parsed into routines
+
+#### 🐛 Fixes
+
+- **modeler**: bound a run's input in tokens
+- **engine**: a slice pass survives model growth
+- **engine**: the guard counts no fixed state name
+- **engine**: the modeler works a model in slices
+- **engine**: read the site model within a budget
+- **logic**: "an Allen\-Bradley" in the refusal
+
+_1 other change \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.21.0)
+
+</details>
+
+<details>
+<summary>v3.20.0 · 2026-11-09 · 6 features, 9 fixes</summary>
+
+#### ✨ Features
+
+- **dev**: relay can run the built sidecar
+- **engine**: scan reads endpoints over the link
+- **sidecar**: read a controller's mode by alias
+- **dev**: a browser relay to the sidecar
+- **desktop**: add a Siemens controller
+- **desktop**: an OPC UA driver for Siemens
+
+#### 🐛 Fixes
+
+- **dev**: relay finds a relative sidecar binary
+- **dev**: relay answers engine scans with none
+- **engine**: the bridge poll keeps each brand
+- **agent**: a dwell claims what its reads show
+- **engine**: get\_rung reads a routine's program
+- **agent**: a deadlock the logic leaves is logic
+- **engine**: output\_on names the state's reads
+- **engine**: guard a finding as it is kept
+- **engine**: judge departures as a PLC is read
+
+_3 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.20.0)
+
+</details>
+
+<details>
+<summary>v3.19.0 · 2026-11-08 · 7 features, 3 fixes</summary>
+
+#### ✨ Features
+
+- **foresight**: optimization findings from slack
+- **foresight**: step times, slack and gain
+- **foresight**: a bounded timing capture
+- **desktop**: plc\.capture\_tags, clamped here too
+- **desktop**: browse and read with our client
+- **desktop**: own OPC UA secure channel, session
+- **engine**: sign and check tokens ourselves
+
+#### 🐛 Fixes
+
+- **foresight**: only the first capture is new
+- **foresight**: a stay near the preset is timed
+- **foresight**: a changed preset is a new finding
+
+_6 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.19.0)
+
+</details>
+
+<details>
+<summary>v3.18.0 · 2026-11-08 · 3 features, 0 fixes</summary>
+
+#### ✨ Features
+
+- **web**: no login token in a URL
+- **desktop**: no login token in a URL
+- **engine**: one\-use tickets; query tokens narrowed
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.18.0)
+
+</details>
+
+<details>
+<summary>v3.17.0 · 2026-10-28 · 14 features, 3 fixes</summary>
+
+#### ✨ Features
+
+- **desktop**: scan mode read by the brand driver
+- **engine**: MSG instructions link controllers
+- **engine**: the whole\-model checks
+- **engine**: evidence notes for the modeler
+- **engine**: links between controllers
+- **agent**: the modeler runs unattended
+- **engine**: the modeler names and groups
+- **engine**: only Rung's modeler writes the model
+- **agent**: ask what is normal in plant words
+- **web**: the Model panel leaves the web shell
+- **engine**: the site model stays Rung's
+- **engine**: footing and the anchored baseline
+- **engine**: extract the site model by rule
+- **desktop**: one driver contract, AB behind it
+
+#### 🐛 Fixes
+
+- **engine**: stored findings lose model citations
+- **engine**: findings keep no model citation
+- **engine**: a grouping stays while its machines do
+
+_6 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.17.0)
+
+</details>
+
+<details>
+<summary>v3.16.0 · 2026-10-28 · 4 features, 0 fixes</summary>
+
+#### ✨ Features
+
+- **desktop**: say when this desktop is too old
+- **engine**: know each client's release, a floor
+- **foresight**: get\_departures, model citations
+- **foresight**: reads against the confirmed model
+
+_7 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.16.0)
+
+</details>
+
+<details>
+<summary>v3.15.0 · 2026-10-27 · 4 features, 0 fixes</summary>
+
+#### ✨ Features
+
+- **release**: notes a subject missed, from a body
+- **desktop**: a site's threads, listed and kept apart
+- **desktop**: discovery finds every brand's controllers
+- **foresight**: a finding says what it was checked on
+
+_28 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.15.0)
+
+</details>
+
+<details>
+<summary>v3.14.0 · 2026-10-26 · 4 features, 1 fix</summary>
+
+#### ✨ Features
+
+- **foresight**: the panel draws a cited window
+- **foresight**: the owner reads a cited window
+- **foresight**: runs watch tags and read trends
+- **foresight**: watch tags between runs
+
+#### 🐛 Fixes
+
+- **foresight**: a sample's spread about its normal
+
+_3 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.14.0)
+
+</details>
+
+<details>
+<summary>v3.13.0 · 2026-10-26 · 2 features, 1 fix</summary>
+
+#### ✨ Features
+
+- **foresight**: the last run names its model
+- **foresight**: its own model and effort
+
+#### 🐛 Fixes
+
+- **foresight**: OpenAI runs use the served client
+
+_1 other change \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.13.0)
+
+</details>
+
+<details>
+<summary>v3.12.0 · 2026-10-26 · 10 features, 1 fix</summary>
+
+#### ✨ Features
+
+- **desktop**: promote both release repos
+- **desktop**: sign, check and mirror releases
+- **desktop**: trust Agent Rung's update key
+- **desktop**: the update banner when signed out
+- **desktop**: the update banner
+- **desktop**: check for and install signed update
+- **shells**: seen again, dismissed and solved
+- **foresight**: the owner dismisses or solves
+- **foresight**: a run is told its known findings
+- **foresight**: a finding seen again counts
+
+#### 🐛 Fixes
+
+- **rest**: a JSON body not an object is a 400
+
+_1 other change \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.12.0)
+
+</details>
+
+[Every release, with all its files](https://github.com/panalogy-lab/agent-rung-desktop/releases)
+
+## Signed updates
 
 Every update is signed with Agent Rung's key; an installed app refuses
-any file that key did not sign. This repository holds releases only.
+any file that key did not sign\. This repository holds releases only\.
