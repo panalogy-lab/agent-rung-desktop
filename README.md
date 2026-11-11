@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.24.0, released 2026-11-10, 1 version in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.24.0, released 2026-11-10, 2 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -38,6 +38,28 @@ _4 other changes \(chores, docs, tests, refactors\)\._
 ## In testing
 
 Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.26.0 · 2026-11-11 · 6 features, 1 fix</summary>
+
+#### ✨ Features
+
+- send scripts only to a sandboxed sidecar
+- **shells**: one code tab per output
+- **agent**: coding answers are outputs\[\]
+- declare an answer's outputs once
+- scripts read and write through rung
+- **sidecar**: run scripts in a WASI sandbox
+
+#### 🐛 Fixes
+
+- pending writes answer the caller's own
+
+_6 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.26.0)
+
+</details>
 
 <details>
 <summary>v3.25.0 · 2026-11-11 · 2 features, 0 fixes</summary>
