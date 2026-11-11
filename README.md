@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.26.0, released 2026-11-11, 0 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.26.0, released 2026-11-11, 1 version in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -37,7 +37,35 @@ _6 other changes \(chores, docs, tests, refactors\)\._
 
 ## In testing
 
-No newer build is in testing right now\.
+Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.27.0 · 2026-11-11 · 8 features, 5 fixes</summary>
+
+#### ✨ Features
+
+- **shells**: take a Siemens block export \.zip
+- **shells**: head a LAD citation as network N
+- **foresight**: cite a Siemens network by number
+- **xref**: class LAD operands as reads or writes
+- **cite**: draw a LAD network as a rung
+- **logic**: store a Siemens \.zip as simaticml
+- **logic**: read Siemens LAD block exports
+- **release**: run the shipped sidecar if signed
+
+#### 🐛 Fixes
+
+- **release**: stop the sidecar before its dir goes
+- **release**: run copies the seat cannot write
+- **engine**: the refusals name the PLC bridge
+- **engine**: a refused PLC call names its state
+- **deps**: drop pycomm3 and pylogix pins
+
+_4 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.27.0)
+
+</details>
 
 ## Earlier versions
 
