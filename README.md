@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.24.0, released 2026-11-10, 2 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.26.0, released 2026-11-11, 0 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -8,41 +8,19 @@
 Installers for the Agent Rung desktop app, and the update feed
 \(`latest.json`\) that installed apps read to update themselves\.
 
-## Download v3\.24\.0
+## Download v3\.26\.0
 
-Released 2026-11-10\. The app needs an Agent Rung account to do anything\.
+Released 2026-11-11\. The app needs an Agent Rung account to do anything\.
 
 | Platform | Installer |
 | --- | --- |
-| macOS · Apple silicon | [Agent\.Rung\_3\.24\.0\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.24.0/Agent.Rung_3.24.0_aarch64.dmg) |
-| Windows · installer | [Agent\.Rung\_3\.24\.0\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.24.0/Agent.Rung_3.24.0_x64-setup.exe) |
-| Windows · MSI | [Agent\.Rung\_3\.24\.0\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.24.0/Agent.Rung_3.24.0_x64_en-US.msi) |
+| macOS · Apple silicon | [Agent\.Rung\_3\.26\.0\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.26.0/Agent.Rung_3.26.0_aarch64.dmg) |
+| Windows · installer | [Agent\.Rung\_3\.26\.0\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.26.0/Agent.Rung_3.26.0_x64-setup.exe) |
+| Windows · MSI | [Agent\.Rung\_3\.26\.0\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.26.0/Agent.Rung_3.26.0_x64_en-US.msi) |
 
-## What's new in v3\.24\.0
+## What's new in v3\.26\.0
 
 ### ✨ Features
-
-- **engine**: read a missed IPv4 PLC directly
-- **sidecar**: AB, topology, SmartGuard on cip
-- **cip**: identity, backplane and SmartGuard
-- **cip**: writes, bit RMW and fragmented writes
-- **cip**: Logix list, templates, reads and MSP
-- **cip**: encapsulation, CPF and sessions
-
-### 🐛 Fixes
-
-- **dev**: seat node's distribution on loopback
-
-_4 other changes \(chores, docs, tests, refactors\)\._
-
-## In testing
-
-Newer builds being tested before one becomes the download above, newest first\.
-
-<details>
-<summary>v3.26.0 · 2026-11-11 · 6 features, 1 fix</summary>
-
-#### ✨ Features
 
 - send scripts only to a sandboxed sidecar
 - **shells**: one code tab per output
@@ -51,15 +29,17 @@ Newer builds being tested before one becomes the download above, newest first\.
 - scripts read and write through rung
 - **sidecar**: run scripts in a WASI sandbox
 
-#### 🐛 Fixes
+### 🐛 Fixes
 
 - pending writes answer the caller's own
 
 _6 other changes \(chores, docs, tests, refactors\)\._
 
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.26.0)
+## In testing
 
-</details>
+No newer build is in testing right now\.
+
+## Earlier versions
 
 <details>
 <summary>v3.25.0 · 2026-11-11 · 2 features, 0 fixes</summary>
@@ -75,7 +55,27 @@ _2 other changes \(chores, docs, tests, refactors\)\._
 
 </details>
 
-## Earlier versions
+<details>
+<summary>v3.24.0 · 2026-11-10 · 6 features, 1 fix</summary>
+
+#### ✨ Features
+
+- **engine**: read a missed IPv4 PLC directly
+- **sidecar**: AB, topology, SmartGuard on cip
+- **cip**: identity, backplane and SmartGuard
+- **cip**: writes, bit RMW and fragmented writes
+- **cip**: Logix list, templates, reads and MSP
+- **cip**: encapsulation, CPF and sessions
+
+#### 🐛 Fixes
+
+- **dev**: seat node's distribution on loopback
+
+_4 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.24.0)
+
+</details>
 
 <details>
 <summary>v3.23.0 · 2026-11-10 · 2 features, 2 fixes</summary>
@@ -260,42 +260,6 @@ _6 other changes \(chores, docs, tests, refactors\)\._
 _7 other changes \(chores, docs, tests, refactors\)\._
 
 [Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.16.0)
-
-</details>
-
-<details>
-<summary>v3.15.0 · 2026-10-27 · 4 features, 0 fixes</summary>
-
-#### ✨ Features
-
-- **release**: notes a subject missed, from a body
-- **desktop**: a site's threads, listed and kept apart
-- **desktop**: discovery finds every brand's controllers
-- **foresight**: a finding says what it was checked on
-
-_28 other changes \(chores, docs, tests, refactors\)\._
-
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.15.0)
-
-</details>
-
-<details>
-<summary>v3.14.0 · 2026-10-26 · 4 features, 1 fix</summary>
-
-#### ✨ Features
-
-- **foresight**: the panel draws a cited window
-- **foresight**: the owner reads a cited window
-- **foresight**: runs watch tags and read trends
-- **foresight**: watch tags between runs
-
-#### 🐛 Fixes
-
-- **foresight**: a sample's spread about its normal
-
-_3 other changes \(chores, docs, tests, refactors\)\._
-
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.14.0)
 
 </details>
 

@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-label="Agent Rung desktop v3.24.0, Released 2026-11-10 · 2 versions in testing">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-label="Agent Rung desktop v3.26.0, Released 2026-11-11 · 0 versions in testing">
   <rect x="0.5" y="0.5" width="879" height="239" rx="16" fill="#ffffff" stroke="#d0d7de"/>
   <rect x="36" y="36" width="8" height="168" rx="4" fill="#d0d7de"/>
   <rect x="100" y="36" width="8" height="168" rx="4" fill="#d0d7de"/>
   <rect x="44" y="52" width="56" height="8" rx="4" fill="#e07a1f"/><rect x="44" y="88" width="56" height="8" rx="4" fill="#d0d7de"/><rect x="44" y="124" width="56" height="8" rx="4" fill="#d0d7de"/><rect x="44" y="160" width="56" height="8" rx="4" fill="#d0d7de"/><rect x="44" y="196" width="56" height="8" rx="4" fill="#d0d7de"/>
   <g font-family="-apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, Helvetica, Arial, sans-serif">
     <text x="148" y="70" font-size="15" font-weight="600" letter-spacing="2" fill="#e07a1f">AGENT RUNG DESKTOP</text>
-    <text x="146" y="146" font-size="64" font-weight="700" fill="#1f2328">v3.24.0</text>
-    <text x="148" y="178" font-size="18" fill="#59636e">Released 2026-11-10 · 2 versions in testing</text>
+    <text x="146" y="146" font-size="64" font-weight="700" fill="#1f2328">v3.26.0</text>
+    <text x="148" y="178" font-size="18" fill="#59636e">Released 2026-11-11 · 0 versions in testing</text>
     <text x="600" y="132" font-size="40" font-weight="700" text-anchor="middle" fill="#e07a1f">6</text>
     <text x="600" y="156" font-size="13" text-anchor="middle" fill="#59636e">features</text>
     <text x="688" y="132" font-size="40" font-weight="700" text-anchor="middle" fill="#e07a1f">1</text>
     <text x="688" y="156" font-size="13" text-anchor="middle" fill="#59636e">fixes</text>
-    <text x="776" y="132" font-size="40" font-weight="700" text-anchor="middle" fill="#59636e">4</text>
+    <text x="776" y="132" font-size="40" font-weight="700" text-anchor="middle" fill="#59636e">6</text>
     <text x="776" y="156" font-size="13" text-anchor="middle" fill="#59636e">other changes</text>
   </g>
 </svg>
