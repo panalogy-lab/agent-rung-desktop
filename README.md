@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.24.0, released 2026-11-10, 0 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.24.0, released 2026-11-10, 1 version in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -37,7 +37,21 @@ _4 other changes \(chores, docs, tests, refactors\)\._
 
 ## In testing
 
-No newer build is in testing right now\.
+Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.25.0 · 2026-11-11 · 2 features, 0 fixes</summary>
+
+#### ✨ Features
+
+- the map's protocol tables are the driver's
+- **engine**: seed every brand's knowledge map
+
+_2 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.25.0)
+
+</details>
 
 ## Earlier versions
 
