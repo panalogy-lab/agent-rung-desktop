@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.27.0, released 2026-11-11, 0 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.27.0, released 2026-11-11, 1 version in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -43,7 +43,29 @@ _4 other changes \(chores, docs, tests, refactors\)\._
 
 ## In testing
 
-No newer build is in testing right now\.
+Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.28.0 · 2026-11-12 · 3 features, 6 fixes</summary>
+
+#### ✨ Features
+
+- **desktop**: say when this computer is not linked to Rung
+- **prompts**: ask Siemens sites for LAD networks
+- **proposals**: check a Siemens LAD network, refuse its hand\-over
+
+#### 🐛 Fixes
+
+- **eval**: read the model guard's user\-word exception
+- **guard**: let a plant word its own rungs say pass the model guard
+- **desktop**: open a bridge on every sign\-in after a sign\-out
+- **runner**: declare and check function\-tool arguments by type
+- **coding**: keep every coding call's outputs in a turn
+- **release**: remove the work dir until it stays
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.28.0)
+
+</details>
 
 ## Earlier versions
 
