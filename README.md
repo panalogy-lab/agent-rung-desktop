@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.26.0, released 2026-11-11, 1 version in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.27.0, released 2026-11-11, 0 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -8,41 +8,19 @@
 Installers for the Agent Rung desktop app, and the update feed
 \(`latest.json`\) that installed apps read to update themselves\.
 
-## Download v3\.26\.0
+## Download v3\.27\.0
 
 Released 2026-11-11\. The app needs an Agent Rung account to do anything\.
 
 | Platform | Installer |
 | --- | --- |
-| macOS · Apple silicon | [Agent\.Rung\_3\.26\.0\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.26.0/Agent.Rung_3.26.0_aarch64.dmg) |
-| Windows · installer | [Agent\.Rung\_3\.26\.0\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.26.0/Agent.Rung_3.26.0_x64-setup.exe) |
-| Windows · MSI | [Agent\.Rung\_3\.26\.0\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.26.0/Agent.Rung_3.26.0_x64_en-US.msi) |
+| macOS · Apple silicon | [Agent\.Rung\_3\.27\.0\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.27.0/Agent.Rung_3.27.0_aarch64.dmg) |
+| Windows · installer | [Agent\.Rung\_3\.27\.0\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.27.0/Agent.Rung_3.27.0_x64-setup.exe) |
+| Windows · MSI | [Agent\.Rung\_3\.27\.0\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.27.0/Agent.Rung_3.27.0_x64_en-US.msi) |
 
-## What's new in v3\.26\.0
+## What's new in v3\.27\.0
 
 ### ✨ Features
-
-- send scripts only to a sandboxed sidecar
-- **shells**: one code tab per output
-- **agent**: coding answers are outputs\[\]
-- declare an answer's outputs once
-- scripts read and write through rung
-- **sidecar**: run scripts in a WASI sandbox
-
-### 🐛 Fixes
-
-- pending writes answer the caller's own
-
-_6 other changes \(chores, docs, tests, refactors\)\._
-
-## In testing
-
-Newer builds being tested before one becomes the download above, newest first\.
-
-<details>
-<summary>v3.27.0 · 2026-11-11 · 8 features, 5 fixes</summary>
-
-#### ✨ Features
 
 - **shells**: take a Siemens block export \.zip
 - **shells**: head a LAD citation as network N
@@ -53,7 +31,7 @@ Newer builds being tested before one becomes the download above, newest first\.
 - **logic**: read Siemens LAD block exports
 - **release**: run the shipped sidecar if signed
 
-#### 🐛 Fixes
+### 🐛 Fixes
 
 - **release**: stop the sidecar before its dir goes
 - **release**: run copies the seat cannot write
@@ -63,11 +41,33 @@ Newer builds being tested before one becomes the download above, newest first\.
 
 _4 other changes \(chores, docs, tests, refactors\)\._
 
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.27.0)
+## In testing
 
-</details>
+No newer build is in testing right now\.
 
 ## Earlier versions
+
+<details>
+<summary>v3.26.0 · 2026-11-11 · 6 features, 1 fix</summary>
+
+#### ✨ Features
+
+- send scripts only to a sandboxed sidecar
+- **shells**: one code tab per output
+- **agent**: coding answers are outputs\[\]
+- declare an answer's outputs once
+- scripts read and write through rung
+- **sidecar**: run scripts in a WASI sandbox
+
+#### 🐛 Fixes
+
+- pending writes answer the caller's own
+
+_6 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.26.0)
+
+</details>
 
 <details>
 <summary>v3.25.0 · 2026-11-11 · 2 features, 0 fixes</summary>
@@ -272,22 +272,6 @@ _6 other changes \(chores, docs, tests, refactors\)\._
 _6 other changes \(chores, docs, tests, refactors\)\._
 
 [Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.17.0)
-
-</details>
-
-<details>
-<summary>v3.16.0 · 2026-10-28 · 4 features, 0 fixes</summary>
-
-#### ✨ Features
-
-- **desktop**: say when this desktop is too old
-- **engine**: know each client's release, a floor
-- **foresight**: get\_departures, model citations
-- **foresight**: reads against the confirmed model
-
-_7 other changes \(chores, docs, tests, refactors\)\._
-
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.16.0)
 
 </details>
 
