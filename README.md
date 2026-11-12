@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.27.0, released 2026-11-11, 1 version in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.27.0, released 2026-11-11, 2 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -44,6 +44,17 @@ _4 other changes \(chores, docs, tests, refactors\)\._
 ## In testing
 
 Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.28.1 · 2026-11-12 · 0 features, 1 fix</summary>
+
+#### 🐛 Fixes
+
+- **ladder**: name a Siemens proposal by its network
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.28.1)
+
+</details>
 
 <details>
 <summary>v3.28.0 · 2026-11-12 · 3 features, 6 fixes</summary>
