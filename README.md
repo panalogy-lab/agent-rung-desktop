@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.28.1, released 2026-11-12, 0 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.28.1, released 2026-11-12, 1 version in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -26,7 +26,32 @@ Released 2026-11-12\. The app needs an Agent Rung account to do anything\.
 
 ## In testing
 
-No newer build is in testing right now\.
+Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.29.0 · 2026-11-13 · 8 features, 2 fixes</summary>
+
+#### ✨ Features
+
+- **sidecar**: read a Siemens CPU's mode from its OperatingMode
+- **knowledge**: fill the Siemens map from its five manuals
+- **mcp**: say a PLC tool takes the site's label too
+- **agents**: name a PLC by alias and the site's label
+- **scope**: resolve a PLC name by alias or the site's label
+- **knowledge**: refuse an oversized or undecodable map alone
+- **knowledge**: write the Siemens map's tables from its driver
+- **knowledge**: serve a second brand's map
+
+#### 🐛 Fixes
+
+- **release**: stop the relay on a TERM before its pid is kept
+- **release**: read the shipped bundle's version without plutil
+
+_2 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.29.0)
+
+</details>
 
 ## Earlier versions
 
