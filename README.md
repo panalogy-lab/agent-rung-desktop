@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.30.0, released 2026-11-15, 1 version in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.31.0, released 2026-11-15, 0 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -8,26 +8,42 @@
 Installers for the Agent Rung desktop app, and the update feed
 \(`latest.json`\) that installed apps read to update themselves\.
 
-## Download v3\.30\.0
+## Download v3\.31\.0
 
 Released 2026-11-15\. The app needs an Agent Rung account to do anything\.
 
 | Platform | Installer |
 | --- | --- |
-| macOS · Apple silicon | [Agent\.Rung\_3\.30\.0\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.30.0/Agent.Rung_3.30.0_aarch64.dmg) |
-| Windows · installer | [Agent\.Rung\_3\.30\.0\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.30.0/Agent.Rung_3.30.0_x64-setup.exe) |
-| Windows · MSI | [Agent\.Rung\_3\.30\.0\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.30.0/Agent.Rung_3.30.0_x64_en-US.msi) |
+| macOS · Apple silicon | [Agent\.Rung\_3\.31\.0\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.31.0/Agent.Rung_3.31.0_aarch64.dmg) |
+| Windows · installer | [Agent\.Rung\_3\.31\.0\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.31.0/Agent.Rung_3.31.0_x64-setup.exe) |
+| Windows · MSI | [Agent\.Rung\_3\.31\.0\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.31.0/Agent.Rung_3.31.0_x64_en-US.msi) |
 
-## What's new in v3\.30\.0
+## What's new in v3\.31\.0
 
 ### ✨ Features
+
+- **intro**: one vendor\-neutral intro, a trial notice \(behavior 111\)
+- **tour**: one first\-chat tour for desktop and web \(behavior 111\)
+
+_7 other changes \(chores, docs, tests, refactors\)\._
+
+## In testing
+
+No newer build is in testing right now\.
+
+## Earlier versions
+
+<details>
+<summary>v3.30.0 · 2026-11-15 · 4 features, 3 fixes</summary>
+
+#### ✨ Features
 
 - **foresight**: the owner tunes foresight from its pane: interval, wakes, kinds, severity
 - **knowledge**: the engine log names what an answer cites
 - **knowledge**: an answer carries its section's citation as cites
 - **prompts**: evidence names the manual a knowledge entry cites
 
-### 🐛 Fixes
+#### 🐛 Fixes
 
 - **deps**: lock pillow 13\.0\.0, past its TIFF IFD advisory
 - **eval**: open /ws/user with a ticket, not ?token=
@@ -35,25 +51,9 @@ Released 2026-11-15\. The app needs an Agent Rung account to do anything\.
 
 _7 other changes \(chores, docs, tests, refactors\)\._
 
-## In testing
-
-Newer builds being tested before one becomes the download above, newest first\.
-
-<details>
-<summary>v3.31.0 · 2026-11-15 · 2 features, 0 fixes</summary>
-
-#### ✨ Features
-
-- **intro**: one vendor\-neutral intro, a trial notice \(behavior 111\)
-- **tour**: one first\-chat tour for desktop and web \(behavior 111\)
-
-_7 other changes \(chores, docs, tests, refactors\)\._
-
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.31.0)
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.30.0)
 
 </details>
-
-## Earlier versions
 
 <details>
 <summary>v3.29.0 · 2026-11-13 · 8 features, 2 fixes</summary>
@@ -243,29 +243,6 @@ _9 other changes \(chores, docs, tests, refactors\)\._
 _6 other changes \(chores, docs, tests, refactors\)\._
 
 [Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.22.0)
-
-</details>
-
-<details>
-<summary>v3.21.0 · 2026-11-09 · 2 features, 6 fixes</summary>
-
-#### ✨ Features
-
-- **logic**: upload and cite Siemens SCL
-- **logic**: SCL sources parsed into routines
-
-#### 🐛 Fixes
-
-- **modeler**: bound a run's input in tokens
-- **engine**: a slice pass survives model growth
-- **engine**: the guard counts no fixed state name
-- **engine**: the modeler works a model in slices
-- **engine**: read the site model within a budget
-- **logic**: "an Allen\-Bradley" in the refusal
-
-_1 other change \(chores, docs, tests, refactors\)\._
-
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.21.0)
 
 </details>
 
