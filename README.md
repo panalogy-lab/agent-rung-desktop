@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.28.1, released 2026-11-12, 1 version in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.29.0, released 2026-11-13, 1 version in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -8,30 +8,19 @@
 Installers for the Agent Rung desktop app, and the update feed
 \(`latest.json`\) that installed apps read to update themselves\.
 
-## Download v3\.28\.1
+## Download v3\.29\.0
 
-Released 2026-11-12\. The app needs an Agent Rung account to do anything\.
+Released 2026-11-13\. The app needs an Agent Rung account to do anything\.
 
 | Platform | Installer |
 | --- | --- |
-| macOS · Apple silicon | [Agent\.Rung\_3\.28\.1\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.28.1/Agent.Rung_3.28.1_aarch64.dmg) |
-| Windows · installer | [Agent\.Rung\_3\.28\.1\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.28.1/Agent.Rung_3.28.1_x64-setup.exe) |
-| Windows · MSI | [Agent\.Rung\_3\.28\.1\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.28.1/Agent.Rung_3.28.1_x64_en-US.msi) |
+| macOS · Apple silicon | [Agent\.Rung\_3\.29\.0\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.29.0/Agent.Rung_3.29.0_aarch64.dmg) |
+| Windows · installer | [Agent\.Rung\_3\.29\.0\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.29.0/Agent.Rung_3.29.0_x64-setup.exe) |
+| Windows · MSI | [Agent\.Rung\_3\.29\.0\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.29.0/Agent.Rung_3.29.0_x64_en-US.msi) |
 
-## What's new in v3\.28\.1
+## What's new in v3\.29\.0
 
-### 🐛 Fixes
-
-- **ladder**: name a Siemens proposal by its network
-
-## In testing
-
-Newer builds being tested before one becomes the download above, newest first\.
-
-<details>
-<summary>v3.29.0 · 2026-11-13 · 8 features, 2 fixes</summary>
-
-#### ✨ Features
+### ✨ Features
 
 - **sidecar**: read a Siemens CPU's mode from its OperatingMode
 - **knowledge**: fill the Siemens map from its five manuals
@@ -42,18 +31,50 @@ Newer builds being tested before one becomes the download above, newest first\.
 - **knowledge**: write the Siemens map's tables from its driver
 - **knowledge**: serve a second brand's map
 
-#### 🐛 Fixes
+### 🐛 Fixes
 
 - **release**: stop the relay on a TERM before its pid is kept
 - **release**: read the shipped bundle's version without plutil
 
 _2 other changes \(chores, docs, tests, refactors\)\._
 
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.29.0)
+## In testing
+
+Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.30.0 · 2026-11-15 · 3 features, 3 fixes</summary>
+
+#### ✨ Features
+
+- **knowledge**: the engine log names what an answer cites
+- **knowledge**: an answer carries its section's citation as cites
+- **prompts**: evidence names the manual a knowledge entry cites
+
+#### 🐛 Fixes
+
+- **deps**: lock pillow 13\.0\.0, past its TIFF IFD advisory
+- **eval**: open /ws/user with a ticket, not ?token=
+- **engine**: drop the REST approve\-write route and update\_rule/3
+
+_7 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.30.0)
 
 </details>
 
 ## Earlier versions
+
+<details>
+<summary>v3.28.1 · 2026-11-12 · 0 features, 1 fix</summary>
+
+#### 🐛 Fixes
+
+- **ladder**: name a Siemens proposal by its network
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.28.1)
+
+</details>
 
 <details>
 <summary>v3.28.0 · 2026-11-12 · 3 features, 6 fixes</summary>
@@ -260,31 +281,6 @@ _1 other change \(chores, docs, tests, refactors\)\._
 _3 other changes \(chores, docs, tests, refactors\)\._
 
 [Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.20.0)
-
-</details>
-
-<details>
-<summary>v3.19.0 · 2026-11-08 · 7 features, 3 fixes</summary>
-
-#### ✨ Features
-
-- **foresight**: optimization findings from slack
-- **foresight**: step times, slack and gain
-- **foresight**: a bounded timing capture
-- **desktop**: plc\.capture\_tags, clamped here too
-- **desktop**: browse and read with our client
-- **desktop**: own OPC UA secure channel, session
-- **engine**: sign and check tokens ourselves
-
-#### 🐛 Fixes
-
-- **foresight**: only the first capture is new
-- **foresight**: a stay near the preset is timed
-- **foresight**: a changed preset is a new finding
-
-_6 other changes \(chores, docs, tests, refactors\)\._
-
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.19.0)
 
 </details>
 
