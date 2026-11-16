@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.31.0, released 2026-11-15, 0 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.31.0, released 2026-11-15, 1 version in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -29,7 +29,22 @@ _7 other changes \(chores, docs, tests, refactors\)\._
 
 ## In testing
 
-No newer build is in testing right now\.
+Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.32.0 · 2026-11-16 · 3 features, 0 fixes</summary>
+
+#### ✨ Features
+
+- **landing**: group what Rung does by its value \(behavior 113\)
+- **landing**: design review, ownership and field trials \(behavior 113\)
+- **intro**: the slides say what Rung does for a system \(behavior 113\)
+
+_3 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.32.0)
+
+</details>
 
 ## Earlier versions
 
