@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 3 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 4 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -33,6 +33,21 @@ _1 other change \(chores, docs, tests, refactors\)\._
 ## In testing
 
 Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.37.0 · 2026-11-16 · 3 features, 0 fixes</summary>
+
+#### ✨ Features
+
+- **chat**: every outside text renders through Markdown\.svelte
+- **markdown**: one inert renderer in both shells
+- **csp**: both shells refuse outside script, beacons and hosts
+
+_2 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.37.0)
+
+</details>
 
 <details>
 <summary>v3.36.0 · 2026-11-16 · 5 features, 5 fixes</summary>
