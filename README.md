@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.32.0, released 2026-11-16, 1 version in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 0 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -8,19 +8,38 @@
 Installers for the Agent Rung desktop app, and the update feed
 \(`latest.json`\) that installed apps read to update themselves\.
 
-## Download v3\.32\.0
+## Download v3\.33\.0
 
 Released 2026-11-16\. The app needs an Agent Rung account to do anything\.
 
 | Platform | Installer |
 | --- | --- |
-| macOS · Apple silicon | [Agent\.Rung\_3\.32\.0\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.32.0/Agent.Rung_3.32.0_aarch64.dmg) |
-| Windows · installer | [Agent\.Rung\_3\.32\.0\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.32.0/Agent.Rung_3.32.0_x64-setup.exe) |
-| Windows · MSI | [Agent\.Rung\_3\.32\.0\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.32.0/Agent.Rung_3.32.0_x64_en-US.msi) |
+| macOS · Apple silicon | [Agent\.Rung\_3\.33\.0\_aarch64\.dmg](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.33.0/Agent.Rung_3.33.0_aarch64.dmg) |
+| Windows · installer | [Agent\.Rung\_3\.33\.0\_x64\-setup\.exe](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.33.0/Agent.Rung_3.33.0_x64-setup.exe) |
+| Windows · MSI | [Agent\.Rung\_3\.33\.0\_x64\_en\-US\.msi](https://github.com/panalogy-lab/agent-rung-desktop/releases/download/v3.33.0/Agent.Rung_3.33.0_x64_en-US.msi) |
 
-## What's new in v3\.32\.0
+## What's new in v3\.33\.0
 
 ### ✨ Features
+
+- **desktop**: name the maker, Panalogy Lab
+
+### 🐛 Fixes
+
+- **landing**: the MCP SDK card names no component
+
+_1 other change \(chores, docs, tests, refactors\)\._
+
+## In testing
+
+No newer build is in testing right now\.
+
+## Earlier versions
+
+<details>
+<summary>v3.32.0 · 2026-11-16 · 3 features, 0 fixes</summary>
+
+#### ✨ Features
 
 - **landing**: group what Rung does by its value \(behavior 113\)
 - **landing**: design review, ownership and field trials \(behavior 113\)
@@ -28,28 +47,9 @@ Released 2026-11-16\. The app needs an Agent Rung account to do anything\.
 
 _3 other changes \(chores, docs, tests, refactors\)\._
 
-## In testing
-
-Newer builds being tested before one becomes the download above, newest first\.
-
-<details>
-<summary>v3.33.0 · 2026-11-16 · 1 feature, 1 fix</summary>
-
-#### ✨ Features
-
-- **desktop**: name the maker, Panalogy Lab
-
-#### 🐛 Fixes
-
-- **landing**: the MCP SDK card names no component
-
-_1 other change \(chores, docs, tests, refactors\)\._
-
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.33.0)
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.32.0)
 
 </details>
-
-## Earlier versions
 
 <details>
 <summary>v3.31.0 · 2026-11-15 · 2 features, 0 fixes</summary>
@@ -228,25 +228,6 @@ _2 other changes \(chores, docs, tests, refactors\)\._
 _4 other changes \(chores, docs, tests, refactors\)\._
 
 [Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.24.0)
-
-</details>
-
-<details>
-<summary>v3.23.0 · 2026-11-10 · 2 features, 2 fixes</summary>
-
-#### ✨ Features
-
-- **release**: rewrite the releases README in CI
-- **release**: the releases README renderer
-
-#### 🐛 Fixes
-
-- **scl**: read any upload in bounded memory
-- **release**: a merge that built nothing is none
-
-_9 other changes \(chores, docs, tests, refactors\)\._
-
-[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.23.0)
 
 </details>
 
