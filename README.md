@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 0 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 1 version in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -32,7 +32,25 @@ _1 other change \(chores, docs, tests, refactors\)\._
 
 ## In testing
 
-No newer build is in testing right now\.
+Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.34.0 · 2026-11-16 · 2 features, 1 fix</summary>
+
+#### ✨ Features
+
+- **shells**: bind each sign\-in code to a secret the app makes
+- **engine**: sign\-in codes hashed, bound to the asking app, counted
+
+#### 🐛 Fixes
+
+- **web**: start the resend cooldown only after a resend
+
+_2 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.34.0)
+
+</details>
 
 ## Earlier versions
 
