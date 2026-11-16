@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 1 version in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 2 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -33,6 +33,24 @@ _1 other change \(chores, docs, tests, refactors\)\._
 ## In testing
 
 Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.35.0 · 2026-11-16 · 2 features, 1 fix</summary>
+
+#### ✨ Features
+
+- **shells**: a hand\-over names the program of its proposal
+- **agent**: a rung locator names the program its routine is in
+
+#### 🐛 Fixes
+
+- **engine**: a cited or proposed rung is found in the program it names
+
+_1 other change \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.35.0)
+
+</details>
 
 <details>
 <summary>v3.34.0 · 2026-11-16 · 2 features, 1 fix</summary>
