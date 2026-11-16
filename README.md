@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 2 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 3 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -33,6 +33,31 @@ _1 other change \(chores, docs, tests, refactors\)\._
 ## In testing
 
 Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.36.0 · 2026-11-16 · 5 features, 5 fixes</summary>
+
+#### ✨ Features
+
+- **foresight**: a switch\-off says the run stopped in the log
+- **landing**: each card shows Rung's own screen
+- **landing**: twelve shots of Rung on the press cell
+- **shots**: the landing shots are taken as Rung ran
+- **shots**: a shot's text is vetted for names it must not show
+
+#### 🐛 Fixes
+
+- **plc**: removing a connected controller ends its session
+- **brands**: the upload notes name each controller once
+- **plc**: a controller is listed once after its connection is added
+- **foresight**: a switch\-off keeps what the run concluded
+- **dev**: the engine's parsers run on the venv's Python
+
+_2 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.36.0)
+
+</details>
 
 <details>
 <summary>v3.35.0 · 2026-11-16 · 2 features, 1 fix</summary>
