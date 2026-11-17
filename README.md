@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 7 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 8 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -33,6 +33,32 @@ _1 other change \(chores, docs, tests, refactors\)\._
 ## In testing
 
 Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.42.0 · 2026-11-17 · 5 features, 6 fixes</summary>
+
+#### ✨ Features
+
+- **dialogs**: costs, image view, new chat and profile on the panel
+- **dialogs**: camera, upload warning and script console on the panel
+- **chrome**: the chat chrome on panel tokens in both shells
+- **approval**: the write sheet on the panel sheet
+- **chrome**: pilot lights and an annunciator in both shells
+
+#### 🐛 Fixes
+
+- **chat**: the web chat starts below its fixed header
+- **chrome**: the chat input and thread rows in panel ink and size
+- **chrome**: the header's sweep is the turn's one motion
+- **chrome**: the desktop's scanning overlay on panel tokens
+- **dialogs**: own their insets, icon room and ink
+- **costs**: read the engine's daily list and cost names
+
+_2 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.42.0)
+
+</details>
 
 <details>
 <summary>v3.40.0 · 2026-11-17 · 3 features, 1 fix</summary>
