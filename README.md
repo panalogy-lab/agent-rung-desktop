@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 6 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 7 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -33,6 +33,23 @@ _1 other change \(chores, docs, tests, refactors\)\._
 ## In testing
 
 Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.40.0 · 2026-11-17 · 3 features, 1 fix</summary>
+
+#### ✨ Features
+
+- **panel**: the PLC panel on panel tokens and controls
+- **panel**: tier, audience, rules and Foresight on panel controls
+- **panel**: the panel controls, one copy in both shells
+
+#### 🐛 Fixes
+
+- **panel**: control contrast, input edges and one lamp per connection
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.40.0)
+
+</details>
 
 <details>
 <summary>v3.39.0 · 2026-11-17 · 5 features, 1 fix</summary>
