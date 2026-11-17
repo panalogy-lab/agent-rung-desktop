@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 4 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 5 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -33,6 +33,26 @@ _1 other change \(chores, docs, tests, refactors\)\._
 ## In testing
 
 Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.38.0 · 2026-11-17 · 8 features, 0 fixes</summary>
+
+#### ✨ Features
+
+- **landing**: shells shot shows both shells on one Evidence table
+- **shells**: one StatusIndicators, the threads button named alike
+- **shells**: one TabbedOutput, Run on the PLCs pill
+- **foresight**: a cited controller is read by its whole label
+- **eval**: the secrecy eval reads plant names by inflection
+- **guard**: a plant name the user's rung says, inflected, is theirs
+- **engine**: a cited or proposed rung answers to either name
+- **logic**: a controller's logic answers to either of its names
+
+_6 other changes \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.38.0)
+
+</details>
 
 <details>
 <summary>v3.37.0 · 2026-11-16 · 3 features, 0 fixes</summary>
