@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whats-new-dark.svg">
-  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 8 versions in testing" src="assets/whats-new-light.svg" width="880">
+  <img alt="Agent Rung desktop v3.33.0, released 2026-11-16, 9 versions in testing" src="assets/whats-new-light.svg" width="880">
 </picture>
 
 # Agent Rung desktop releases
@@ -33,6 +33,32 @@ _1 other change \(chores, docs, tests, refactors\)\._
 ## In testing
 
 Newer builds being tested before one becomes the download above, newest first\.
+
+<details>
+<summary>v3.43.0 · 2026-11-18 · 2 features, 9 fixes</summary>
+
+#### ✨ Features
+
+- **landing**: ten shots from one clean gpt\-6\.2\-sol run
+- **landing**: the twelve shots on the panel sheet
+
+#### 🐛 Fixes
+
+- **panel**: the bodies keep the canvas's white and black
+- **shots**: a failed run keeps the sizes of what it wrote
+- **shots**: design waits out a fresh run; refusal reads chat
+- **shots**: the write scene finds the panel's sheet
+- **shots**: the scenes on the panel's annunciator, rocker and caps
+- **landing**: the page on the panel's dark set
+- **tour**: the popover on panel tokens over driver\.js's own
+- **sign\-in**: the dark set behind it, the light card, one box
+- **intro**: the slides on the panel sheet, diagrams in agent amber
+
+_1 other change \(chores, docs, tests, refactors\)\._
+
+[Release page and every file](https://github.com/panalogy-lab/agent-rung-desktop/releases/tag/v3.43.0)
+
+</details>
 
 <details>
 <summary>v3.42.0 · 2026-11-17 · 5 features, 6 fixes</summary>
